@@ -1,11 +1,11 @@
 'use strict';
 const { DataTypes, Sequelize } = require('sequelize');
-const { USER_TABLE, UserSchema } = require('../models/userModel')
-const { CUSTOMER_TABLE, CustomerSchema } = require('../models/customerModel')
-const { CATEGORY_TABLE, CategorySchema } = require('../models/categoryModel')
-const { PRODUCT_TABLE, ProductSchema } = require('../models/productModel')
-const { ORDER_TABLE } = require('../models/orderModel')
-const { OrderProductSchema, ORDER_PRODUCT_TABLE } = require('../models/order-productModel')
+const { USER_TABLE, UserSchema } = require('../models/user.model')
+const { CUSTOMER_TABLE, CustomerSchema } = require('../models/costumer.model')
+const { CATEGORY_TABLE, CategorySchema } = require('../models/category.model')
+const { PRODUCT_TABLE, ProductSchema } = require('../models/product.model')
+const { ORDER_TABLE } = require('../models/order.model')
+const { OrderProductSchema, ORDER_PRODUCT_TABLE } = require('../models/order-product.model')
 
 
 module.exports = {
